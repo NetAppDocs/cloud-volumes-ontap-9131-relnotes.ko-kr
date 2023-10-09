@@ -442,9 +442,7 @@ HA 쌍: ^1^의 노드에서 18개</block>
   <block id="9f71cb3204a7c80e435b6337aed1e728" category="cell">256TiB</block>
   <block id="6c3b49ddb811c2d88edee86163680009" category="section-title">노드 기반 라이센스의 제한</block>
   <block id="d017aa906544a3348ee35d75ebb10b72" category="paragraph">노드별 Cloud Volumes ONTAP 라이센스를 설정할 수 있는 이전 세대 라이센스 모델인 노드 기반 라이센스를 사용하는 Cloud Volumes ONTAP 시스템에는 다음과 같은 디스크 제한이 적용됩니다. 기존 고객은 노드 기반 라이센스를 계속 사용할 수 있습니다.</block>
-  <block id="52960fb5a2829740ddef9c61b6015d59" category="list-text">노드 기반 라이센스를 사용하는 경우 Cloud Volumes ONTAP BYOL 시스템에 여러 노드 기반 라이센스를 구매하여 368TiB 이상의 용량을 할당할 수 있습니다.</block>
   <block id="275e3ef1a302e67e93bcf0f30d566f74" category="inline-link">Cloud Volumes ONTAP에 시스템 라이센스를 추가하는 방법에 대해 알아보십시오</block>
-  <block id="05c9b06fc32318d0689c553219a9d496" category="paragraph">단일 노드 시스템 또는 HA 쌍에 대해 구매할 수 있는 라이센스 수는 무제한입니다. 디스크 제한만으로는 용량 제한에 도달하지 못할 수 있습니다. 를 사용하면 디스크 제한을 초과할 수 있습니다<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>.</block>
   <block id="fff4bb20e652c529e2e22e76e56ed9b5" category="section-title">PAYGO Premium이 포함된 단일 노드</block>
   <block id="40959eff270cd482e3813b16716a7ee3" category="cell">21^1^</block>
   <block id="c7867e37fc822edce03899d5be8cd610" category="cell">19^2^</block>
@@ -454,7 +452,6 @@ HA 쌍: ^1^의 노드에서 18개</block>
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">여러 라이센스가 있는 최대 시스템 용량</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">* 디스크만 사용 *</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">* 디스크 + 데이터 계층화 *</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">368TiB x 각 라이센스</block>
   <block id="9dbb7f356b08de585f6ddbe523e4a8d8" category="section-title">PAYGO Premium과 HA 쌍</block>
   <block id="156b98ab4634edb024f99442726e3e8d" category="cell">18^1^</block>
   <block id="dee0912fefbe003d7ae380d371a87fad" category="cell">16^2^</block>
@@ -705,4 +702,7 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">3.9.26 이상을 실행하는 커넥터가 있는 경우 이제 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP 9.13.1 P1 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
   <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">P1 패치에서 수정된 버그 목록을 봅니다</block>
   <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> (NetApp Support 사이트 로그인 필요).</block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">PiB 2개(여러 개의 라이센스 필요)</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">Cloud Volumes ONTAP BYOL 단일 노드 또는 HA 쌍 시스템에 대해 노드 기반 라이센스를 여러 개 구매하여 최대 테스트 및 지원 시스템 용량 제한인 2개의 PiB까지 368TiB의 용량을 할당할 수 있습니다. 디스크 제한만으로는 용량 제한에 도달하지 못할 수 있습니다. 를 사용하면 디스크 제한을 초과할 수 있습니다<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>. Cloud Volumes ONTAP는 최대 테스트 및 지원되는 시스템 용량인 2 PiB를 지원하지만 2 PiB 제한을 초과하면 지원되지 않는 시스템 구성이 발생합니다.</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">AWS Secret Cloud 및 Top Secret Cloud 지역에서는 Cloud Volumes ONTAP 9.12.1부터 다수의 노드 기반 라이센스 구매를 지원합니다.</block>
 </blocks>
