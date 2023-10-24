@@ -713,4 +713,10 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="540e57f70019c3eb8d7fb999259fd473" category="cell">페이지 Blob</block>
   <block id="6098d03c49b315476cd9c4d4eb330395" category="list-text">Cloud Volumes ONTAP는 HA 쌍을 사용하는 경우 이러한 VM 유형의 빠른 쓰기 속도를 지원합니다. 배포 도중 또는 이후에 BlueXP에서 빠른 쓰기 속도를 활성화할 수 있습니다.<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>.</block>
   <block id="bcc4564bd7fc660f5dd5b39219b9775f" category="list-text">이러한 VM은 Cloud Volumes ONTAP 9.11.1 이전 버전에서만 지원됩니다. 이러한 VM 유형을 사용하면 기존 페이지 볼륨 배포를 Cloud Volumes ONTAP 9.11.1에서 9.12.1로 업그레이드할 수 있습니다. Cloud Volumes ONTAP 9.12.1 이상에서는 새 페이지 BLOB 배포를 수행할 수 없습니다.</block>
+  <block id="93a8f424f80a11f2b0c8033863918070" category="section-title">9.13.1 P2 및 9.13.1 P3(2023년 10월 20일)</block>
+  <block id="1f5ba0320bb355ce1c84fa22d3320c81" category="paragraph">3.9.26 이상을 실행하는 커넥터가 있는 경우 이제 모든 클라우드 공급자에 대해 9.13.1 P2 및 9.13.1 P3 패치를 Cloud Volumes ONTAP에서 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
+  <block id="4c7cf73669136d536c96ca7317eb5ceb" category="inline-link-macro">P3 패치에서 수정된 버그 목록을 봅니다</block>
+  <block id="a4cdabe7d09534b66cc3588e7a6be157" category="list-text"><block ref="64910144ceff590b89d211507e69f99d" category="inline-link-macro-rx"></block> (NetApp Support 사이트 로그인 필요).</block>
+  <block id="ce5d0c77f167b881391469fc27895727" category="inline-link-macro">P2 패치에서 수정된 버그 목록을 봅니다</block>
+  <block id="3a241c1cc236161cb13d8868799bd35d" category="list-text"><block ref="6401b436e7a7c9f3878e464100366d7a" category="inline-link-macro-rx"></block> (NetApp Support 사이트 로그인 필요).</block>
 </blocks>
