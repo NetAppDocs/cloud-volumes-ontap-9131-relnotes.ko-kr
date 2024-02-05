@@ -731,4 +731,8 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">BlueXP는 Cloud Volumes ONTAP 9.13.1부터 시작됩니다</block>
   <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">계층적 클론 깊이는 단일 FlexVol 볼륨에서 생성할 수 있는 FlexClone 볼륨 계층 구조의 최대 깊이입니다</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300TB</block>
+  <block id="9be6e2b3828ef34b87981b1fed1d7d49" category="section-title">9.13.1 P6(2024년 2월 5일)</block>
+  <block id="45c3fd07b44be9221ac34d409aa7afa2" category="paragraph">이제 모든 클라우드 공급자를 위해 Cloud Volumes ONTAP에서 9.13.1 P6 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">P6 패치에서 수정된 버그 목록을 봅니다</block>
+  <block id="417efdf7267a8f2b68aa9938ecb8ed83" category="paragraph"><block ref="40427ff7eb35eecb9c6ff0d928baffa1" category="inline-link-macro-rx"></block> (NetApp Support 사이트 로그인 필요).</block>
 </blocks>
