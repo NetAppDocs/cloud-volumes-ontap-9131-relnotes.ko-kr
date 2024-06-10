@@ -503,7 +503,6 @@ HA 쌍: ^1^의 노드에서 18개</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">이 경우 전용 IP 주소가 필요하므로 생성할 수 있는 추가 스토리지 VM의 수가 제한됩니다. 단, 여러 AZs의 HA 쌍만 예외입니다. 이 경우 관리 LIF의 IP 주소는 _floating_ip 주소이므로 _private_ip 제한에 대해 계산되지 않습니다.</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">파일 및 볼륨 제한</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">계층적 복제 깊이 ^1^</block>
-  <block id="b07f6144410a8635e8ae505b186322a5" category="summary">이 릴리즈 노트에서는 Cloud Volumes ONTAP 9.13.1 의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.</block>
   <block id="a69b1618b78e74242413945e92315e51" category="doc">Cloud Volumes ONTAP 9.13.1 릴리스 정보</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">AWS에서는 여러 Cloud Volumes ONTAP 구성이 지원됩니다.</block>
   <block id="8bb0da4c260f565e0c8162ea9c2b7caa" category="doc">AWS에서 지원되는 구성</block>
@@ -747,4 +746,5 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="53ce0a94e090cdbb2c32cbf8aac660ce" category="paragraph">이제 모든 클라우드 공급자를 위해 Cloud Volumes ONTAP에서 9.13.1 P9 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">P9 패치에서 수정된 버그 목록을 봅니다</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> (NetApp Support 사이트 로그인 필요).</block>
+  <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">본 릴리즈 노트에서는 Cloud Volumes ONTAP 9.13의 새로운 기능, 제한 사항 및 알려진 문제에 대해 설명합니다.</block>
 </blocks>
