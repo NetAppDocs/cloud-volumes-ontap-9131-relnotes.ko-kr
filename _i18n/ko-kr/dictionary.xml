@@ -755,4 +755,11 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="f171f0e8d194c2373f3cc30c09a319da" category="paragraph">이제 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP에서 9.13.1 P11 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">P11 패치에서 수정된 버그 목록을 봅니다</block>
   <block id="4473c3792db930b11f3b08ad362c20a0" category="paragraph"><block ref="95ca1819697e369f884e111fea0785c3" category="inline-link-macro-rx"></block> (NetApp 지원 사이트에 로그인 필요).</block>
+  <block id="596423d773da4d74868ca1a577a8f423" category="paragraph">FabricPool의 몇 가지 성능 향상이 Cloud Volumes ONTAP의 계층형 데이터에 영향을 미칠 수 있습니다.</block>
+  <block id="97aaaff90c83c1de77726c6f8e7edfe5" category="paragraph-title">순차적 읽기 속도 및 계층화 개선</block>
+  <block id="72104ef2281edd2d898132944d4a7d79" category="paragraph">FabricPool의 향상된 읽기 성능 및 계층화 처리량으로 인해 온프레미스 오브젝트 저장소와<block ref="3e75383a5992a6d15fb81e872e46e256" prefix=" " category="inline-code"></block> 작업의 비율이 높을 수 있습니다<block ref="7528035a93ee69cedb1dbddb2f0bfcc8" prefix=" " category="inline-code"></block>. 원활한 성능을 위한 충분한 성능 여유를 확보하십시오.</block>
+  <block id="a96f02a492680446509f1ea5ea14d111" category="paragraph-title">적극적인 미리 읽기 기능</block>
+  <block id="11239924a0f998971d2f090e7e50b3e0" category="paragraph"><block ref="567317ccd355e882ed3e573ab1b87615" prefix=" " category="inline-code"></block>FabricPool의 기능은 파일 수준에서 읽기 작업을 늘려 퍼블릭 클라우드의 읽기 비용과 메모리 활용률을 높일 수 있습니다.</block>
+  <block id="9e212a2c3e1a9570b60e318e22e8c381" category="paragraph-title">클라우드 쓰기 기능</block>
+  <block id="c2c4fca58f0994c8802a93fe1a04cd7d" category="paragraph">이 기능을 통해 NFS 클라이언트는 FabricPool의 용량 계층에 직접 쓸 수 있습니다. 이 기능은 특정 제한 사항이 있으므로 주의해서 사용해야 합니다. 예를 들어 SnapMirror와 같은 일반 ONTAP 트래픽에 클라우드 쓰기 NFS 트래픽이 추가되는 경우 SnapMirror의 전체 RPO(복구 시점 목표) 및 RTO(복구 시간 목표)가 영향을 받을 수 있습니다.</block>
 </blocks>
