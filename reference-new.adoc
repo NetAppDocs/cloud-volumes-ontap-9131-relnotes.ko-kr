@@ -20,6 +20,14 @@ Cloud Volumes ONTAP 9.13.1 에는 새로운 개선 사항이 포함되어 있습
 
 
 
+== 9.13.1 P12(2024년 11월 25일)
+
+이제 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP에서 9.13.1 P12 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P12["P12 패치에서 수정된 버그 목록을 봅니다"^] (NetApp 지원 사이트에 로그인 필요).
+
+
+
 == 9.13.1 P11(2024년 10월 14일)
 
 이제 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP에서 9.13.1 P11 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.
@@ -109,11 +117,17 @@ FabricPool의 몇 가지 성능 향상이 Cloud Volumes ONTAP의 계층형 데�
 .순차적 읽기 속도 및 계층화 개선
 FabricPool의 향상된 읽기 성능 및 계층화 처리량으로 인해 온프레미스 오브젝트 저장소와 `PUT` 작업의 비율이 높을 수 있습니다 `GET`. 원활한 성능을 위한 충분한 성능 여유를 확보하십시오.
 
+자세한 내용은 를 참조하십시오 https://www.netapp.com/media/17239-tr-4598.pdf["FabricPool 모범 사례 가이드 를 참조하십시오"^]
+
 .적극적인 미리 읽기 기능
  `Aggressive Readahead`FabricPool의 기능은 파일 수준에서 읽기 작업을 늘려 퍼블릭 클라우드의 읽기 비용과 메모리 활용률을 높일 수 있습니다.
 
+자세한 내용은 다음 ONTAP 설명서를 참조하십시오. https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-aggressive-read-ahead-task.html#enable-aggressive-read-ahead-mode-during-volume-creation["적극적인 미리 읽기 모드를 활성화 및 비활성화합니다"^]
+
 .클라우드 쓰기 기능
 이 기능을 통해 NFS 클라이언트는 FabricPool의 용량 계층에 직접 쓸 수 있습니다. 이 기능은 특정 제한 사항이 있으므로 주의해서 사용해야 합니다. 예를 들어 SnapMirror와 같은 일반 ONTAP 트래픽에 클라우드 쓰기 NFS 트래픽이 추가되는 경우 SnapMirror의 전체 RPO(복구 시점 목표) 및 RTO(복구 시간 목표)가 영향을 받을 수 있습니다.
+
+자세한 내용은 다음 ONTAP 설명서를 참조하십시오. https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-volume-cloud-write-task.html["볼륨을 클라우드에 직접 쓰도록 설정 및 해제합니다"^]
 
 
 

@@ -683,7 +683,6 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">릴리스 노트 홈</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">설치하고</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure를 지원합니다</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">알려진 제한 사항</block>
@@ -762,4 +761,15 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="11239924a0f998971d2f090e7e50b3e0" category="paragraph"><block ref="567317ccd355e882ed3e573ab1b87615" prefix=" " category="inline-code"></block>FabricPool의 기능은 파일 수준에서 읽기 작업을 늘려 퍼블릭 클라우드의 읽기 비용과 메모리 활용률을 높일 수 있습니다.</block>
   <block id="9e212a2c3e1a9570b60e318e22e8c381" category="paragraph-title">클라우드 쓰기 기능</block>
   <block id="c2c4fca58f0994c8802a93fe1a04cd7d" category="paragraph">이 기능을 통해 NFS 클라이언트는 FabricPool의 용량 계층에 직접 쓸 수 있습니다. 이 기능은 특정 제한 사항이 있으므로 주의해서 사용해야 합니다. 예를 들어 SnapMirror와 같은 일반 ONTAP 트래픽에 클라우드 쓰기 NFS 트래픽이 추가되는 경우 SnapMirror의 전체 RPO(복구 시점 목표) 및 RTO(복구 시간 목표)가 영향을 받을 수 있습니다.</block>
+  <block id="0a8869c8814390edc64d7a89c95538fb" category="section-title">9.13.1 P12(2024년 11월 25일)</block>
+  <block id="1b62edb82c1bd156e44ee97345e44486" category="paragraph">이제 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP에서 9.13.1 P12 패치를 사용할 수 있습니다. BlueXP는 기존 시스템을 이 패치 릴리즈로 업그레이드하라는 메시지를 표시합니다.</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">P12 패치에서 수정된 버그 목록을 봅니다</block>
+  <block id="455214c21df5263f6ed36c053cb45a4e" category="paragraph"><block ref="9c93dffbb4ec23fa855293479535be60" category="inline-link-macro-rx"></block> (NetApp 지원 사이트에 로그인 필요).</block>
+  <block id="e107edea5015f3e06a3e74dda1dc6b6f" category="inline-link">FabricPool 모범 사례 가이드 를 참조하십시오</block>
+  <block id="35817b290a25aecb5178d7e9eaf01a17" category="paragraph">자세한 내용은 를 참조하십시오<block ref="a846ee339ee812c7fc25a76975d73fb9" category="inline-link-rx"></block></block>
+  <block id="417d564baf44c113e38a023e8ac69531" category="inline-link">적극적인 미리 읽기 모드를 활성화 및 비활성화합니다</block>
+  <block id="40a618f301b0824dc71ab1ceed4fe45d" category="paragraph">자세한 내용은 다음 ONTAP 설명서를 참조하십시오.<block ref="5ac0d9b6b12766db0ad38c087c84f3bf" category="inline-link-rx"></block></block>
+  <block id="555816af48eeb34081ba83c44d62bd87" category="inline-link">볼륨을 클라우드에 직접 쓰도록 설정 및 해제합니다</block>
+  <block id="08580da782a41b39a0487a40d392a946" category="paragraph">자세한 내용은 다음 ONTAP 설명서를 참조하십시오.<block ref="31143d7508b448ef79ac6c1971109dcf" category="inline-link-rx"></block></block>
+  <block id="a6fe7cde79de251ddde0aaad9dbb2181" category="sidebar">Cloud Volumes ONTAP 9.13.1 릴리스 정보</block>
 </blocks>
