@@ -193,8 +193,6 @@
   <block id="7e250845f86eeaaaf4e55296f483f4ee" category="summary">Cloud Volumes ONTAP 9.13.1 에는 새로운 향상 기능이 포함되어 있습니다.</block>
   <block id="59d68d1abaff04001d7f138b569d66a1" category="doc">Cloud Volumes ONTAP 9.13.1 의 새로운 기능</block>
   <block id="0775e0f9165c68236ce80a5eeaf622d2" category="paragraph">Cloud Volumes ONTAP 9.13.1 에는 새로운 개선 사항이 포함되어 있습니다.</block>
-  <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">BlueXP 릴리스 정보</block>
-  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">최신 버전의 BlueXP에는 추가 기능 및 향상된 기능이 도입되었습니다. 를 참조하십시오<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="3265c73fa992103b2a4f8d03470586ac" category="section-title">9.13.1 GA(2023년 7월 26일)</block>
   <block id="b5d2ebb75a812f3d5c8fc5e62ce5a672" category="paragraph">Cloud Volumes ONTAP 9.13.1 의 일반 가용성 릴리스는 현재 AWS, Azure 및 Google Cloud에서 사용할 수 있습니다.</block>
   <block id="9c8c9e4dac5a2be78e81d66cbffd75af" category="section-title">9.13.1 RC1(2023년 6월 26일)</block>
@@ -781,4 +779,11 @@ PAYGO가 있는 단일 노드의 물리적 용량 352TiB
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">P14 패치에서 수정된 버그 목록을 봅니다</block>
   <block id="78a93fb58bfa815953d0dd609c64d9b2" category="paragraph"><block ref="51eb214624a80ecbca9373da2cbd3635" category="inline-link-macro-rx"></block> (NetApp 지원 사이트에 로그인 필요).</block>
   <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">아래 표에 표시된 대역폭은 각 인스턴스 유형에 대해 문서화된 AWS 제한과 일치합니다. 이러한 제한은 Cloud Volumes ONTAP가 제공할 수 있는 것과 완전히 일치하지 않습니다. 예상 성능은<block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
+  <block id="a6eefc87b37bef0346f44d6b69100767" category="paragraph">NetApp Console의 최신 버전에는 추가 기능 및 개선 사항도 도입되었습니다. 자세한 내용은 <block ref="1d9c556cbea0cbbdf1160d623abde8cc" category="inline-link-macro-rx"></block> 참조하십시오.</block>
+  <block id="16a5075e4f3a3c22587a9fd06fcedf15" category="section-title">9.13.1 P21HF1 (2026년 11월 12일)</block>
+  <block id="e590031c7b7bcb2f6f969488ad777316" category="paragraph">이제 모든 클라우드 제공업체의 Cloud Volumes ONTAP에서 9.13.1 P21HF1 패치를 사용할 수 있습니다. 이 패치는 9.13.1용 ONTAP 핫픽스와 호환됩니다.</block>
+  <block id="8ad3eb5eca42a4379abc9f1c9a2f829a" category="paragraph">Cloud Volumes ONTAP 시스템의 경우 Console에서 이 핫픽스로 업그레이드하라는 메시지가 표시될 수 있습니다. 하지만 이 핫픽스는 Console 에이전트 버전이 4.12.0 이상인 경우에만 지원됩니다. Console 에이전트 버전이 4.12.0 이전인 경우 해당 메시지를 무시하십시오.</block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="inline-link-macro">Console 에이전트 4.12.0</block>
+  <block id="8e8b20b71032c4ee10ed609d1fc74995" category="paragraph"><block ref="8e8b20b71032c4ee10ed609d1fc74995" category="inline-link-macro-rx"></block></block>
 </blocks>

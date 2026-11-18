@@ -16,7 +16,18 @@ summary: Cloud Volumes ONTAP 9.13.1 에는 새로운 향상 기능이 포함되�
 [role="lead"]
 Cloud Volumes ONTAP 9.13.1 에는 새로운 개선 사항이 포함되어 있습니다.
 
-최신 버전의 BlueXP에는 추가 기능 및 향상된 기능이 도입되었습니다. 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP 릴리스 정보"^] 를 참조하십시오.
+NetApp Console의 최신 버전에는 추가 기능 및 개선 사항도 도입되었습니다. 자세한 내용은 link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^] 참조하십시오.
+
+
+
+[[9-13-1-p21hf1-12-november-2026]]
+== 9.13.1 P21HF1 (2026년 11월 12일)
+
+이제 모든 클라우드 제공업체의 Cloud Volumes ONTAP에서 9.13.1 P21HF1 패치를 사용할 수 있습니다. 이 패치는 9.13.1용 ONTAP 핫픽스와 호환됩니다.
+
+Cloud Volumes ONTAP 시스템의 경우 Console에서 이 핫픽스로 업그레이드하라는 메시지가 표시될 수 있습니다. 하지만 이 핫픽스는 Console 에이전트 버전이 4.12.0 이상인 경우에만 지원됩니다. Console 에이전트 버전이 4.12.0 이전인 경우 해당 메시지를 무시하십시오.
+
+link:https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-12-0["Console 에이전트 4.12.0"^]
 
 
 
